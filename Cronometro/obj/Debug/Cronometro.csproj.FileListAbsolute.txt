@@ -1,0 +1,7 @@
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\bin\Debug\Cronometro.exe.config
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\bin\Debug\Cronometro.exe
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\bin\Debug\Cronometro.pdb
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\obj\Debug\Cronometro.csproj.AssemblyReference.cache
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\obj\Debug\Cronometro.csproj.CoreCompileInputs.cache
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\obj\Debug\Cronometro.exe
+E:\Estudos CSHARP\Projetos\Cronometro-\Cronometro\Cronometro\obj\Debug\Cronometro.pdb
