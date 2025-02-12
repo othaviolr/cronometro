@@ -23,7 +23,7 @@ O programa começa exibindo um menu com as opções disponíveis. O usuário pod
 ## Exemplo de Uso
 
 Aqui está um exemplo de como usar o programa:
-
+```
 Opções:
 S = Segundos => 10s = 10 segundos
 M = Minuto => 1m = 1 minuto
@@ -49,11 +49,11 @@ Tempo decorrido: 10 segundos
 [####################]
 
 Cronômetro finalizado!
-
+```
 
 ### Modo Pomodoro
 
-
+```
 Opções:
 S = Segundos => 10s = 10 segundos
 M = Minuto => 1m = 1 minuto
@@ -83,7 +83,7 @@ Agora!!!
 
 Tempo restante: 300 segundos
 [####################]
-
+```
 ...
 
 🎉 Parabéns! Você concluiu um ciclo completo de Pomodoro!
