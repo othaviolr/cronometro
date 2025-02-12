@@ -83,11 +83,11 @@ Agora!!!
 
 Tempo restante: 300 segundos
 [####################]
-```
+
 ...
 
 🎉 Parabéns! Você concluiu um ciclo completo de Pomodoro!
-
+```
 
 ## Como Executar
 
