@@ -1,106 +1,109 @@
-# Cronômetro Pomodoro
+# Cronômetro e Pomodoro em C#
 
-## Sobre o Projeto
-O **Cronômetro Pomodoro** é um aplicativo desenvolvido em C# que simula a técnica de produtividade Pomodoro. A técnica Pomodoro consiste em períodos de trabalho focado seguidos por curtos intervalos de descanso. Esse cronômetro ajuda a gerenciar e otimizar o tempo de trabalho e descanso, aumentando a produtividade e melhorando o foco durante as tarefas.
+Este projeto é um cronômetro simples e uma ferramenta de Pomodoro implementada em C#. Ele permite que os usuários contem o tempo em segundos, minutos ou horas, além de oferecer uma contagem regressiva e um modo Pomodoro para gerenciamento de tempo.
 
-### Funcionalidades
+## Funcionalidades
 
-- **Contagem de tempo**: Permite contar um tempo específico para atividades variadas.
-- **Contagem regressiva**: Realiza uma contagem regressiva para um determinado tempo.
-- **Técnica Pomodoro**: Executa ciclos de 25 minutos de trabalho seguidos de 5 minutos de descanso, repetindo o ciclo.
-- **Exibição visual**: Utiliza barras de progresso para exibir o tempo restante em tempo real.
-- **Modo de pausa e reinício**: A qualquer momento, você pode pausar e reiniciar a contagem do cronômetro.
+- **Cronômetro**: Contagem progressiva de tempo em segundos, minutos ou horas.
+- **Contagem Regressiva**: Contagem regressiva de tempo a partir de um valor especificado.
+- **Modo Pomodoro**: Ciclos de 25 minutos de trabalho e 5 minutos de descanso, repetidos 4 vezes.
+- **Interface de Linha de Comando (CLI)**: Interface simples e intuitiva para interação com o usuário.
 
-## Tecnologias Utilizadas
+## Como Funciona
 
-- **Linguagem**: C#
-- **Plataforma**: .NET Console Application
-- **Funcionalidade**: Contagem de tempo, contagem regressiva, e interface simples de usuário para interatividade.
+O programa começa exibindo um menu com as opções disponíveis. O usuário pode escolher entre:
+
+- **Segundos (s)**: Contagem de tempo em segundos (ex: `10s`).
+- **Minutos (m)**: Contagem de tempo em minutos (ex: `5m`).
+- **Horas (h)**: Contagem de tempo em horas (ex: `2h`).
+- **Contagem Regressiva (r)**: Contagem regressiva a partir de um valor especificado (ex: `10r`).
+- **Pomodoro (p)**: Inicia um ciclo de Pomodoro com 25 minutos de trabalho e 5 minutos de descanso.
+- **Sair (0)**: Encerra o programa.
 
 ## Exemplo de Uso
 
-Cronômetro Pomodoro - Bem Vindo!
-================================
-1-Contagem de tempo
-2-Contagem regressiva
-3-Técnica Pomodoro (25m de trabalho + 5m de descanso)
-4-Sair
-Escolha uma opção: 1
+Aqui está um exemplo de como usar o programa:
 
-Quanto tempo deseja contar? 10m
+Opções:
+S = Segundos => 10s = 10 segundos
+M = Minuto => 1m = 1 minuto
+H = Hora => 1h = 1 hora
+R = Contagem Regressiva => 10r = 10 segundos regressivos
+P = Pomodoro (25 min trabalho, 5 min descanso)
+0 = Sair
+Quanto tempo deseja contar? 10s
 
-Iniciando cronômetro para 10 minutos...
-Tempo restante: 10m 00s
-[####################]
-Tempo restante: 9m 59s
-[################### ]
-Tempo restante: 9m 58s
-[################### ]
+Preparar...
+Apontar...
+Agora!!!
+
+Tempo decorrido: 0 segundos
+[--------------------]
+
+Tempo decorrido: 1 segundos
+[#-------------------]
+
 ...
-Tempo restante: 00m 01s
-[                 -]
-Aperte enter para continuar.
 
-================================
-Escolha uma opção: 2
-
-Quanto tempo deseja contar? 10r
-
-Iniciando contagem regressiva de 10 segundos...
-Tempo restante: 10s
+Tempo decorrido: 10 segundos
 [####################]
-Tempo restante: 9s
-[################### ]
-Tempo restante: 8s
-[##################  ]
-...
-Tempo restante: 1s
-[                 -]
-Contagem finalizada! Aperte enter para continuar.
 
-================================
-Escolha uma opção: 3
+Cronômetro finalizado!
 
-Iniciando ciclo Pomodoro... (25 minutos de trabalho + 5 minutos de descanso)
-Trabalho - 25 minutos
-Tempo restante: 25m 00s
+
+### Modo Pomodoro
+
+
+Opções:
+S = Segundos => 10s = 10 segundos
+M = Minuto => 1m = 1 minuto
+H = Hora => 1h = 1 hora
+R = Contagem Regressiva => 10r = 10 segundos regressivos
+P = Pomodoro (25 min trabalho, 5 min descanso)
+0 = Sair
+Quanto tempo deseja contar? p
+
+🍅 Pomodoro 1 - Foco! (25 min)
+Preparar...
+Apontar...
+Agora!!!
+
+Tempo restante: 1500 segundos
 [####################]
-Tempo restante: 24m 59s
-[################### ]
-Tempo restante: 24m 58s
-[################### ]
-...
-Tempo restante: 00m 01s
-[                 -]
 
-Hora do descanso! (5 minutos)
-Tempo restante: 5m 00s
+...
+
+Tempo restante: 0 segundos
+[--------------------]
+
+☕ Hora do descanso! (5 min)
+Preparar...
+Apontar...
+Agora!!!
+
+Tempo restante: 300 segundos
 [####################]
-Tempo restante: 4m 59s
-[################### ]
-Tempo restante: 4m 58s
-[################### ]
+
 ...
-Tempo restante: 00m 01s
-[                 -]
 
-Ciclo concluído! Aperte enter para iniciar novamente ou 0 para sair.
+🎉 Parabéns! Você concluiu um ciclo completo de Pomodoro!
 
 
-## Como Usar
+## Como Executar
 
-1. Clone o repositório ou faça o download do código fonte.
-2. Compile e execute o programa em um ambiente que suporte C# (como o Visual Studio ou Visual Studio Code).
-3. No menu principal, escolha uma das opções: 
-    - **Contagem de tempo**: para contar um tempo definido de sua escolha.
-    - **Contagem regressiva**: para contar regressivamente a partir de um tempo específico.
-    - **Técnica Pomodoro**: para iniciar o ciclo Pomodoro com 25 minutos de trabalho seguidos por 5 minutos de descanso.
-4. Acompanhe o progresso através da barra de tempo e os minutos restantes.
-5. Quando o tempo acabar, a opção para iniciar novamente estará disponível.
+1. Clone o repositório para sua máquina local.
+2. Abra o projeto em um ambiente de desenvolvimento compatível com C# (ex: Visual Studio).
+3. Compile e execute o projeto.
 
-## Melhorias Futuras
-- Implementação de um contador de ciclos Pomodoro para exibir quantos ciclos de trabalho e descanso foram completados.
-- Opção de personalizar os tempos de trabalho e descanso.
-- Salvar o histórico de uso em arquivos ou banco de dados.
-- Interface gráfica (GUI) para uma melhor experiência do usuário.
-- Notificações de alerta sonoras ou visuais no final de cada ciclo de trabalho e descanso.
+## Requisitos
+
+- .NET SDK instalado.
+- Ambiente de desenvolvimento compatível com C# (opcional, mas recomendado).
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar o projeto.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
