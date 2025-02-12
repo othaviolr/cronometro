@@ -1,4 +1,4 @@
-# Cronômetro e Pomodoro em C#
+# Cronômetro em C#
 
 Este projeto é um cronômetro simples e uma ferramenta de Pomodoro implementada em C#. Ele permite que os usuários contem o tempo em segundos, minutos ou horas, além de oferecer uma contagem regressiva e um modo Pomodoro para gerenciamento de tempo.
 
